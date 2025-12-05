@@ -6,6 +6,8 @@ console.log(arr);
 const arr2= new Array(1,2,3,4,5,6);
 console.log(arr2);
 console.log("-------------")
+
+
 // ********** Array Methods *************
 
 arr2.push(8)
