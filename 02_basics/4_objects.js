@@ -69,4 +69,21 @@ console.log(Object.keys(tinderuser));
 console.log(Object.values(tinderuser));
 console.log(Object.entries(tinderuser));        //array inside array
 
-console.log(tinderuser.hasOwnProperty('isLoggedIn'));       // to find the value
+console.log(tinderuser.hasOwnProperty('isLoggedIn'));      console.log("-------------")    // to find the value
+
+
+
+
+//************* destructuring of react values *************
+
+const course ={
+    CourseName:"java",
+    price:"2999",
+    courseInstructor:"vivek"
+}
+
+const {courseInstructor} = course;
+console.log(courseInstructor);      // OR
+
+const {courseInstructor : instructor} = course;
+console.log(instructor);
