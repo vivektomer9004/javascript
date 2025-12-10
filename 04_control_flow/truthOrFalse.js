@@ -29,7 +29,7 @@ if (Object.keys(emptyObj).length===0){
 let val1;
 // val1 = 5 ?? 10;
 // val1 = null ?? 10;
-// val1 = undefined ?? 16;
+// val1 = undefined ?? 16; 
 val1 = null ?? 10 ?? 5;  // it will return first not null/undefined value
 console.log(val1);  // 5        
 console.log("-------------");
@@ -39,4 +39,4 @@ console.log("-------------");
 // condition ? true : false
 
 const iceTeaPrice = 100;
-iceTeaPrice >= 80 ? console.log("IceTea price is high") : console.log("IceTea price is low");
+iceTeaPrice <= 80 ? console.log("IceTea price is high") : console.log("IceTea price is low");
