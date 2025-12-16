@@ -30,7 +30,7 @@ for (const key in obj){
 }                                                     console.log("-------------");
 
 
-// PPlying same for array
+// Applying same for array
 
 const arr = ["pea", "potato", "carrot"];
 
